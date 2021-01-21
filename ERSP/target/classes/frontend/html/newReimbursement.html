@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>New Reimbursement</title>
+<link rel="stylesheet" type="text/css" href="/css/newReimbursement.css">
+</head>
+<body>
+<form  method= "post" action="/user/logout">
+	<input id="logout" value="Log out" type="submit">
+</form>
+<div class="container">
+
+	<form id="form" method="post" action="/reimbursement/new">
+		<label id="label-amount" for="amount">Amount:</label>
+		<input id="amount" type="text" name="amount" placeholder="0.00">
+		<label id="label-type" for="type">Type:</label>
+		<select id="type" name="type">
+			<option value="0">LODGING</option>
+			<option value="1">TRAVEL</option>
+			<option	value="2">FOOD</option>
+			<option	value="3">OTHER</option>
+		</select>
+		<textarea id="description" rows="25" cols="80" name="description"></textarea>
+		<input id="submit-btn" type="submit" value="Add Reimbursement">
+		<a href="/html/employee.html">Cancel</a>
+	</form>
+</div>
+
+
+<script type="text/javascript" src="/js/newReimbursment.js"></script>
+</body>
+</html>

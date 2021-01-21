@@ -1,0 +1,122 @@
+@charset "ISO-8859-1";
+
+body{
+	width: auto;
+	height: 100%;
+	background-color: #23272A;
+}
+
+.container-login{
+	
+	position:fixed;
+	top: 50%;
+	left: 50%;
+	width: 450px;
+	height: 650px;
+	background-color:#2C2F33;
+	border-radius: 10px;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+	transform: translate(-50%, -50%);
+	padding: 20px 150px 0px 150px;
+}
+
+#logo{
+	position:absolute;
+	top: 80px;
+	width: 150px;
+	height: 50px;
+	
+}
+
+#form{
+	position:absolute;
+	top: 160px;
+	width:350px;
+	height:450px;
+	left:50px;
+}
+
+#Username-text{
+	position:absolute;
+	left:25px;
+	top:150px;
+	color: #f06b27;
+	text-align: center;
+	width:300px;
+	height:20px;
+	font-size: 20px;
+}
+
+#username{
+	position:absolute;
+	left:25px;
+	top:190px;
+	background-color: #23272A;
+	text-align: center;
+	width:300px;
+	height:40px;
+	border: none;
+	border-radius: 5px;
+	color:lightgray;
+}
+
+#password-text{
+	position:absolute;
+	left:25px;
+	top:240px;
+	color: #f06b27;
+	text-align: center;
+	width:300px;
+	font-size: 20px;
+}
+
+#password{
+	position:absolute;
+	left:25px;
+	top:280px;
+	background-color: #23272A;
+	text-align: center;
+	width:300px;
+	height:40px;
+	border: none;
+	border-radius: 5px;
+	color:lightgray;
+}
+
+#submit-btn{
+	position:absolute;
+	left:25px;
+	top:360px;
+	background-color: #f06b27;
+	text-align: center;
+	width:300px;
+	height:50px;
+	border: none;
+	border-radius: 5px;
+	color:#23272A;
+	font-weight: bold;
+}
+
+#newUser{
+	position:absolute;
+	color:lightgray;
+	text-align: center;
+	width:300px;
+	left:25px;
+	top:450px;
+	font-size: 15px;
+}
+
+a{
+	color: white;	
+	font-weight: bold;
+}
+a:hover{
+	color: #f06b27;	
+}
+a:hover{
+	color: #f06b27;	
+}
+a:visited{
+	color: #f06b27;	
+}

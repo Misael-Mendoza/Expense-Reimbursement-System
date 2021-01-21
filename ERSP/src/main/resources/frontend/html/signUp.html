@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="/css/signUp.css">
+</head>
+<body>
+<a href="/html/index.html">Cancel</a>
+	<div class="container-signup">
+	<p id="signUp-text">Sign up</p>
+	<form id="form" method="post" action="/user/signup">
+		<label id="Username-text" for="username">Username:</label>
+		<input id="username"type="text" placeholder="Please enter your username" name="username">
+		<label id="password-text" for="password">Password:</label> 
+		<input id="password" type="password" placeholder="Please enter your password" name="password">
+		<label id="firstName-text" for="firsName">First name:</label> 
+		<input id="firstName" type="text" placeholder="Please enter your first name" name="firstName">
+		<label id="lastName-text" for="firsName">Last name:</label> 
+		<input id="lastName" type="text" placeholder="Please enter your last name" name="lastName">
+		<label id="email-text" for="email">Email:</label> 
+		<input id="email" type="email" placeholder="Please enter your email" name="email">
+		<label id="role-text" for="roles">Role:</label> 
+		<select id="roles" name = "role">
+				<option value = "1">Employee</option>
+				<option value = "0">Finance Manager</option>
+		</select>
+		<input id="signup-btn" type="submit"  value ="Sign Up">
+	</form>
+	
+	</div>
+<script type="text/javascript" src="/js/signUp.js"></script>
+</body>
+</html>

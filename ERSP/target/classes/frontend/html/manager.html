@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Manager view</title>
+
+<link rel="stylesheet" type="text/css" href="/css/manager.css">
+</head>
+<body>
+
+<form  method= "post" action="/user/logout">
+	<input id="logout" value="Log out" type="submit">
+</form>
+<label id="filter"> Filter by:
+	<select class="filter-reimb">
+    <option value="All">All</option>
+    <option value="Approved">Approved</option>
+    <option value="Pending">Pending</option>
+    <option value="Denied">Denied</option>
+	</select>
+</label>
+<p>Reimbursement Center</p>
+<br>
+<table name ="table">
+<thead>
+<tr>
+	<th>ID</th>
+	<th>Amount</th> 
+	<th>Submitted</th> 
+	<th>Resolved</th> 
+	<th>Description</th> 
+	<th>Author</th> 
+	<th>Resolver</th>
+	<th>Status</th> 
+	<th>Type</th>
+</tr>
+</thead>
+<tbody name="body">
+</tbody>
+</table>
+<script type="text/javascript" src="/js/manager.js"></script>
+</body>
+</html>

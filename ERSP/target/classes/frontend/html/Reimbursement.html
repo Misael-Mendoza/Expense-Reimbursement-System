@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Reimbursement</title>
+<link rel="stylesheet" type="text/css" href="/css/Reimbursement.css">
+</head>
+<body>
+<button id="back" name="gb" onclick="location.href = '/html/manager.html'">Go back</button>
+<form  method= "post" action="/user/logout">
+	<input id="logout" value="Log out" type="submit">
+</form>
+<form id="sender" >
+	<input id="id" type="text" disabled="disabled">
+	<input id ="btn" type="submit">
+</form>
+
+<div class="container-signup">
+	<p id="signUp-text">Reimbursement</p>
+	<form id="form">
+		<label id="Username-text" for="username">Reimbursement #:</label>
+		<input id="username"type="text" name="id" disabled="disabled">
+		<label id="password-text" for="password">Amount:</label> 
+		<input id="password" type="text" name="amount" disabled="disabled">
+		<label id="firstName-text" for="firsName">Author:</label> 
+		<input id="firstName" type="text" name="author" disabled="disabled">
+		<label id="lastName-text" for="firsName">Submitted:</label> 
+		<input id="lastName" type="text" name="submitted" disabled="disabled">
+		<label id="email-text" for="email">Type:</label> 
+		<input id="email" type="text" name="type" disabled="disabled">
+		<label id="role-text" for="roles">Description:</label> 
+		<input id="roles" type="text" name="description" disabled="disabled">
+		<select id="decision" name = "decision">
+				<option value = "0">Approve</option>
+				<option value = "2">Denied</option>
+		</select>
+		<input id="approve" type="submit"  value ="Accept">
+	</form>
+	
+	</div>
+<script type="text/javascript" src="/js/Reimbursement.js"></script>
+</body>
+</html>

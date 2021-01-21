@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+
+body{
+	width: auto;
+	height: 100%;
+	background-color: #23272A;
+}
+
+#notFound-text{
+	text-align: center;
+	color:#f06b27;
+	font-family: "Calibri";
+	font-weight: bold;
+	font-size: 140px;
+	margin-bottom: 15px;
+}
+
+h2{
+	text-align:center;
+	color:gray;
+	font-family: "Calibri";
+	font-size: 40px;
+	margin-top: 15px;
+}
+
+a{
+	color: lightgray;
+	font-family: "Calibri";
+	font-weight: bold;
+	font-size: 40px;
+	text-decoration: none;
+}
+a:hover{
+	color: #f06b27;
+}

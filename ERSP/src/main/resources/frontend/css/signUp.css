@@ -1,0 +1,215 @@
+@charset "ISO-8859-1";
+
+body{
+	width: auto;
+	height: 100%;
+	background-color: #23272A;
+}
+
+.container-signup{
+	
+	position:fixed;
+	top: 50%;
+	left: 50%;
+	width: 700px;
+	height: 650px;
+	background-color:#2C2F33;
+	border-radius: 10px;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+	transform: translate(-50%, -50%);
+	padding: 0px;
+}
+
+#signUp-text{
+	margin:0;
+	position:absolute;
+	width:300px;
+	text-align:center;
+	left:200px;
+	top:5px;
+	font-size: 40px;
+	height:40px;
+	color: #f06b27;
+	font-family: "Calibri";
+}
+
+#form{
+	position:absolute;
+	width: 600px;
+	height:560px;
+	top:65px;
+	left:50px;
+}
+
+#Username-text{
+	position:absolute;
+	left:25px;
+	top:5px;
+	color: #f06b27;
+	text-align: left;
+	width:300px;
+	height:20px;
+	font-size: 20px;
+	
+}
+
+#username{
+	position:absolute;
+	left:25px;
+	top:35px;
+	background-color: #23272A;
+	text-align: left;
+	width:525px;
+	height:30px;
+	border: none;
+	border-radius: 5px;
+	color:lightgray;
+}
+
+#password-text{
+	position:absolute;
+	left:25px;
+	top:75px;
+	color: #f06b27;
+	text-align: left;
+	width:300px;
+	height:20px;
+	font-size: 20px;
+}
+
+#password{
+	position:absolute;
+	left:25px;
+	top:105px;
+	background-color: #23272A;
+	text-align: left;
+	width:525px;
+	height:30px;
+	border: none;
+	border-radius: 5px;
+	color:lightgray;
+}
+
+#firstName-text{
+	position:absolute;
+	left:25px;
+	top:145px;
+	color: #f06b27;
+	text-align: left;
+	width:300px;
+	height:20px;
+	font-size: 20px;
+}
+
+#firstName{
+	position:absolute;
+	left:25px;
+	top:175px;
+	background-color: #23272A;
+	text-align: left;
+	width:525px;
+	height:30px;
+	border: none;
+	border-radius: 5px;
+	color:lightgray;
+}
+
+#lastName-text{
+	position:absolute;
+	left:25px;
+	top:215px;
+	color: #f06b27;
+	text-align: left;
+	width:300px;
+	height:20px;
+	font-size: 20px;
+}
+
+#lastName{
+	position:absolute;
+	left:25px;
+	top:245px;
+	background-color: #23272A;
+	text-align: left;
+	width:525px;
+	height:30px;
+	border: none;
+	border-radius: 5px;
+	color:lightgray;
+}
+
+#email-text{
+	position:absolute;
+	left:25px;
+	top:285px;
+	color: #f06b27;
+	text-align: left;
+	width:300px;
+	height:20px;
+	font-size: 20px;
+}
+
+#email{
+	position:absolute;
+	left:25px;
+	top:315px;
+	background-color: #23272A;
+	text-align: left;
+	width:525px;
+	height:30px;
+	border: none;
+	border-radius: 5px;
+	color:lightgray;
+}
+
+#role-text{
+	position:absolute;
+	left:25px;
+	top:355px;
+	color: #f06b27;
+	text-align: left;
+	width:300px;
+	height:20px;
+	font-size: 20px;
+}
+
+#roles{
+	position:absolute;
+	left:25px;
+	top:385px;
+	background-color: #23272A;
+	width:525px;
+	height:30px;
+	border: none;
+	border-radius: 5px;
+	color: gray;
+}
+
+#signup-btn{
+	position:absolute;
+	left:25px;
+	top:485px;
+	background-color: #f06b27;
+	text-align: center;
+	width:525px;
+	height:50px;
+	border: none;
+	border-radius: 5px;
+	color:#23272A;
+	font-weight: bold;
+}
+a{
+	font-family: "Calibri";
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+	color:#f06b27;
+}
+
+
+
+
+
+
+
+
