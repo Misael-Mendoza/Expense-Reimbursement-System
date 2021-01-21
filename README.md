@@ -34,10 +34,10 @@ To-do list:
 
 ## Getting Started
 
-> Clone this repository using `$ git clone https://github.com/Misael-Mendoza/Expense-Reimbursement-System.git`
-> Open your local repository using Spring tool suite 4
-> Run the MainDriver.java class
-> Open `http://localhost:9012/html/index.html` in your browser.
+- Clone this repository using `$ git clone https://github.com/Misael-Mendoza/Expense-Reimbursement-System.git`
+- Open your local repository using Spring tool suite 4
+- Run the MainDriver.java class
+- Open `http://localhost:9012/html/index.html` in your browser.
 
 ## Usage
 
